@@ -30,8 +30,14 @@ class AppFontStyles{
       fontSize: AppSizes.getProportionateScreenSize(size: 24),
       fontFamily: fontFamily,
       fontWeight: FontWeight.w600,
-      // height: AppSizes.getProportionateScreenSize(size: 31.2),
       color: AppColors.appTextColor
+  );
+
+  static TextStyle primaryHeadingFour = TextStyle(
+      fontSize: AppSizes.getProportionateScreenSize(size: 24),
+      fontFamily: fontFamily,
+      fontWeight: FontWeight.w600,
+      color: AppColors.appPrimaryColor
   );
 
   static TextStyle headingFive = TextStyle(
@@ -88,9 +94,16 @@ class AppFontStyles{
       fontSize: AppSizes.getProportionateScreenSize(size: 16),
       fontFamily: fontFamily,
       fontWeight: FontWeight.w800,
-      // height: AppSizes.getProportionateScreenSize(size: 24),
       letterSpacing: AppSizes.getProportionateScreenSize(size: 0.3),
       color: AppColors.appTextColor
+  );
+
+  static TextStyle greyBodyLargeBold = TextStyle(
+      fontSize: AppSizes.getProportionateScreenSize(size: 16),
+      fontFamily: fontFamily,
+      fontWeight: FontWeight.w700,
+      letterSpacing: AppSizes.getProportionateScreenSize(size: 0.3),
+      color: AppColors.appGreyTextColor
   );
 
   static TextStyle whiteBodyLargeBold = TextStyle(
@@ -120,7 +133,7 @@ class AppFontStyles{
       color: AppColors.appTextColor
   );
 
-  static TextStyle bodLargeMedium = TextStyle(
+  static TextStyle bodyLargeMedium = TextStyle(
       fontSize: AppSizes.getProportionateScreenSize(size: 16),
       fontFamily: fontFamily,
       fontWeight: FontWeight.w500,

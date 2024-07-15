@@ -43,6 +43,8 @@ dependencies:
   cookie_jar: ^4.0.8
   shared_preferences: ^2.2.3
   google_sign_in: ^6.2.1
+  pinput: ^1.2.0
+  flutter_countdown_timer: ^4.1.0
 
 
 dev_dependencies:

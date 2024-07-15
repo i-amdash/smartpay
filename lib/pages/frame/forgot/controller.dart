@@ -19,6 +19,14 @@ class ForgotController extends GetxController {
     }
   }
 
+  void togglePasswordText(){
+    state.closedEye.value = !state.closedEye.value;
+  }
+
+  void toggleConfirmPasswordText(){
+    state.closedConfirmEye.value = !state.closedConfirmEye.value;
+  }
+
   @override
   void onReady(){
     super.onReady();

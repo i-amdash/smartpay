@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:smartpay/common/entities/entities.dart';
-import 'package:smartpay/common/routes/names.dart';
 import 'package:smartpay/common/store/user.dart';
 import 'package:smartpay/common/utils/http.dart';
 import 'package:smartpay/pages/frame/sign_in/state.dart';
@@ -20,6 +19,10 @@ class SignInController extends GetxController {
       'openid'
     ]
   );
+
+  void togglePasswordText(){
+    state.closedEye.value = !state.closedEye.value;
+  }
 
   Future<void> handleSignIn(String type) async {
     try {

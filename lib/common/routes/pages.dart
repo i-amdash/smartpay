@@ -25,20 +25,20 @@ class AppPages {
     ),
     GetPage(
       name: AppRoutes.signIn,
-      page: () => const SignInPage(),
+      page: () => SignInPage(),
       binding: SignInBinding(),
     ),
 
     GetPage(
       name: AppRoutes.forgot,
-      page: () => const ForgotPage(),
+      page: () => ForgotPage(),
       binding: ForgotBinding(),
     ),
 
     GetPage(
       name: AppRoutes.register,
-      page: () => const SignUpPage(),
-      binding: SignInBinding(),
+      page: () => SignUpPage(),
+      binding: SignUpBinding(),
     ),
   ];
 
